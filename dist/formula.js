@@ -247,7 +247,7 @@ exports.parseMatrix = function(matrix) {
   return matrix;
 };
 
-var d1900 = new Date(Date.UTC(1900, 0, 1));
+var d1900 = new Date('1/1/1900');
 exports.parseDate = function(date) {
   if (!isNaN(date)) {
     if (date instanceof Date) {
@@ -4048,7 +4048,7 @@ exports.TYPE = function(value) {
 var error = __webpack_require__(0);
 var utils = __webpack_require__(1);
 
-var d1900 = new Date(Date.UTC(1900, 0, 1));
+var d1900 = new Date('1/1/1900');
 var WEEK_STARTS = [
   undefined,
   0,
@@ -4139,7 +4139,7 @@ exports.DATEVALUE = function(date_text) {
   }
 
   date = Date.parse(date_text);
-
+  
   if (isNaN(date)) {
     return error.value;
   }
