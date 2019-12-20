@@ -2,7 +2,7 @@
   "author": "Qoreboard <info@qoreboard.com>",
   "name": "@qoreboard/formulajs",
   "description": "JavaScript implementation of most Microsoft Excel formula functions",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "repository": {
     "type": "git",
     "url": "git@github.com:Qoreboard/formula.js.git"
